@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/offRed_color</item>
+        <item name="colorPrimaryDark">@color/black_color</item>
+        <item name="colorAccent">@color/white_color</item>
+    </style>
+
+
+
+    <style name="textView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/oval_shape</item>
+        <item name="android:backgroundTint">@color/pink_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white_color</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+
+    </style>
+    <style name="textView2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:background">@drawable/oval_shape</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/pink_color</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginEnd">2dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginStart">2dp</item>
+
+    </style>
+
+
+    <style name="RadioButtonStyle" parent="Theme.AppCompat.Light">
+
+        <item name="colorAccent">@android:color/holo_red_light</item>
+        <item name="android:textColorPrimary">@android:color/darker_gray</item>
+
+    </style>
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:colorAccent">#f3f3f3</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+</resources>

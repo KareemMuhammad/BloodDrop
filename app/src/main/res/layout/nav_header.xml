@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@color/offRed_color"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circle_image_nav"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_margin="4dp"
+        android:src="@drawable/images"
+        app:civ_border_color="#FF5722"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/name_nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:textColor="@color/white_color"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/last_donation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="12dp"
+        android:text="@string/you_can_donate_in"
+        android:textColor="@color/white_color"
+        android:textSize="12sp" />
+
+</LinearLayout>

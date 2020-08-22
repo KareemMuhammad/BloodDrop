@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Blood Drop</string>
+    <string name="Google_Maps_Api_Key">api</string>
+
+    //collections
+    <string name="collection_user_locations">User Locations</string>
+    <string name="collection_users">Users</string>
+    <string name="collection_car_users">Donation Requests</string>
+
+    //login
+    <string name="login">Login</string>
+    <string name="blood_drop">Blood Drop</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="you_new_create_one">Don\'t have an account!</string>
+    <string name="register">Register</string>
+    <string name="login_by_google">Login By Google</string>
+    <string name="yes_dialog">Yes</string>
+
+    //messages
+    <string name="gps_alert_dialog">This application requires GPS to work properly, do you want to enable it?</string>
+    <string name="incomplete_info">Please fill all the fields</string>
+    <string name="successful_sign_in">Signed in successfully!</string>
+    <string name="successful_sign_out">Signing out!</string>
+    <string name="dialog">OK</string>
+    <string name="successful_registration">Registration succeed!</string>
+    <string name="failed_registration">Registration failed!</string>
+    <string name="failed_sign_in">Authentication failed!</string>
+    <string name="null_user">User not found!</string>
+    <string name="dismiss_dialog">X</string>
+    <string name="about_msg">Blood Drop is a software that helps people who needs Blood and the others who wants to donor their blood to the hospitals via blood vehicles.\n The project aims to make the donation process become easy and fast. The operation of the donation will be done by the hospital blood vehicles.</string>
+
+    //menu
+    <string name="sign_out_msg">Sign out</string>
+
+    //register
+    <string name="username_register">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password_register">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="choose_your_blood_type">Choose Your Blood Type</string>
+    <string name="register_button">Register</string>
+    <string name="phone_Pro">Phone:</string>
+    <string name="address_pro">Address:</string>
+    <string name="email_pro">Email:</string>
+    <string name="name_pro">Name :</string>
+    <string name="edit_update">Click to update your donation date</string>
+    <string name="a_blood_hint">A+</string>
+    <string name="equipment">Vehicle Information</string>
+    <string name="donor_btn">Donor</string>
+    <string name="invite_code">Invite Code</string>
+    <string name="hospital_name">Organization</string>
+    <string name="city">City</string>
+    <string name="departure">Departure time</string>
+    <string name="critical">Critical type</string>
+
+    //drawer
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="about_us">About us</string>
+    <string name="map">Map</string>
+    <string name="donate">Donation Requests</string>
+    <string name="you_can_donate_in">Donation frequency: Every 56 days!</string>
+    <string name="platelets">Platelets</string>
+    <string name="both">Both</string>
+    <string name="plasma">Plasma</string>
+    <string name="choose_donation_type">Choose donation Type</string>
+    <string name="national_id">National Id</string>
+    <string name="request">Request</string>
+    <string name="total_points">Points:</string>
+    <string name="_0">0</string>
+    <string name="fill_fields">Please fill all the fields</string>
+    <string name="pass_not_match">Password not match</string>
+    <string name="user_s_info">User\'s Info</string>
+    <string name="vehicle_s_info">vehicle\'s Info</string>
+    <string name="search">Search</string>
+
+    //spinner
+    <string-array name="blood">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+</resources>

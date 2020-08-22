@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.MainActivity"
+    android:background="@drawable/back_color"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_view"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        app:civ_border_color="#C418E1"
+        android:src="@drawable/image"
+        app:civ_border_width="2dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/image_view"
+        android:layout_marginTop="10dp"
+        android:id="@+id/line"
+        android:background="#A6A5A5" />
+    <EditText
+        android:id="@+id/name_login"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/image_view"
+        android:layout_marginTop="35dp"
+        android:layout_centerInParent="true"
+        android:hint="@string/username"
+        android:textSize="14sp"
+        android:drawablePadding="4dp"
+        android:paddingStart="4dp"
+        android:ems="5"
+        android:inputType="textPersonName"
+        android:drawableStart="@drawable/ic_action_person"
+        android:background="@drawable/shape_edit"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/password_login"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_edit"
+        android:inputType="textPassword"
+        android:textSize="12sp"
+        android:paddingStart="4dp"
+        android:ems="5"
+        android:layout_marginTop="25dp"
+        android:layout_centerInParent="true"
+        android:hint="@string/password"
+        android:drawablePadding="4dp"
+        android:importantForAutofill="no"
+        android:drawableStart="@drawable/ic_action_lock"
+        android:layout_below="@id/name_login"
+        />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_login"
+        android:layout_marginTop="40dp"
+        android:layout_centerInParent="true"
+        android:text="@string/login"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white_color"
+        android:textStyle="bold"
+        android:background="@drawable/btn_shape"
+        android:onClick="userSignIn"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/or_view1"
+        android:text="Don't have an account.."
+        android:textColor="#FFEB3B"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_below="@id/login_google"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="4dp" />
+    <Button
+        android:id="@+id/register_text"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textColor="@color/white_color"
+        android:textSize="18sp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/or_view1"
+        android:background="@drawable/btn_shape"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/login_google"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_login"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/btn_shape"
+        android:textColor="@color/white_color"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:onClick="googleSignIn"
+        android:text="@string/login_by_google" />
+
+</RelativeLayout>

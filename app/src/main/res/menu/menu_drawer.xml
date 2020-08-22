@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_stat_profile"
+            android:title="@string/profile"
+
+            />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_stat_map"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/nav_donation"
+            android:icon="@drawable/ic_local_pharmacy_black_24dp"
+            android:title="@string/donate" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_stat_about"
+            android:title="@string/about_us" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_stat_login"
+            android:title="@string/logout"
+            />
+
+    </group>
+
+</menu>

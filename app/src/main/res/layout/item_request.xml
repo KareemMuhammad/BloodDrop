@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white_color">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_request"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:elevation="4dp"
+        android:layout_margin="8dp"
+        android:background="@color/white_color">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linear_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="18sp"
+                android:text="@string/vehicle_s_info"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_margin="6dp" />
+            <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/black_color"
+            android:layout_margin="6dp" />
+            <TextView
+                android:id="@+id/text_view2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/black_color"
+                android:layout_margin="6dp" />
+
+            <TextView
+                android:text="@string/user_s_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_margin="6dp" />
+            <TextView
+                android:id="@+id/text_view4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/black_color"
+                android:layout_margin="6dp" />
+            <TextView
+                android:id="@+id/text_view5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/black_color"
+                android:layout_margin="6dp" />
+            <TextView
+                android:id="@+id/text_view6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/black_color"
+                android:layout_margin="6dp" />
+            <TextView
+                android:id="@+id/text_view7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/black_color"
+                android:layout_margin="6dp"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:id="@+id/text_view3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_margin="6dp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
